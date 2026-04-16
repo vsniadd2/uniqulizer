@@ -2,8 +2,5 @@ __pycache__/
 .venv/
 *.pyc
 
-# don't commit secrets
-config.py
-
 # ffmpeg binaries exceed GitHub 100 MB file limit — install locally or unpack your own build
 data/ffmpeg/ffmpeg-master-latest-win64-gpl/bin/*.exe
